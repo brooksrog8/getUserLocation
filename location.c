@@ -4,7 +4,7 @@
 #include <winsock2.h>
 #include <windows.h>
 #include <wininet.h>
-
+// gcc location.c -o location -lws2_32 -lwininet
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "wininet.lib")
 
